@@ -1,0 +1,88 @@
+<div class="no-adherido-container">
+    <h1 class="subtitle primary-text">Lugar no listado</h1>
+    <form [formGroup]="pedidoForm" (ngSubmit)="setPedidoDetails()">
+        <p class="title">¿Qué necesitas?</p>
+        <mat-form-field style="width: 100%;">
+            <mat-label>Producto</mat-label>
+            <textarea matInput formControlName="producto" placeholder="Es una caja marrón..."></textarea>
+        </mat-form-field>
+        <div class="file-container">
+            <div style="display: flex; align-items: flex-end; flex-direction: row; justify-content: center;">
+                <img src="../../../assets/icons/image.svg" class="image-icon">
+                <input #imageCtrl type="file" class="file-control" multiple accept="image/jpg"
+                    (change)="onImageCharged(imageCtrl)">
+            </div>
+            <p class="file-hint primary-text">Agrega una imagen para ayudar a identificar tu pedido</p>
+        </div>
+        <p class="title" matTooltip="El tiempo mínimo es de 1 hora" [matTooltipPosition]="'below'">¿Cuándo lo necesitas?
+        </p>
+        <div style="display: flex; flex-direction: row;">
+            <mat-form-field style="width: 100%;">
+                <mat-select formControlName="formaEntrega">
+                    <mat-option [value]="'LO_ANTES_POSIBLE'">Lo antes posible</mat-option>
+                    <mat-option [value]="'PROGRAMAR'">Programar entrega</mat-option>
+                </mat-select>
+            </mat-form-field>
+            <img *ngIf="pedidoForm.value.formaEntrega === 'PROGRAMAR'" style="width: 28px;"
+                src="../../../assets/icons/edit_calendar.svg" (click)="showCalendar(picker)" />
+            <div style="display: none;">
+                <input [ngxMatDatetimePicker]="picker" formControlName="horaEntrega">
+                <ngx-mat-datetime-picker #picker [stepHour]="1" [stepMinute]="15" [touchUi]="true">
+                </ngx-mat-datetime-picker>
+            </div>
+        </div>
+        <mat-form-field style="width: 100%">
+            <mat-label>Ciudad</mat-label>
+            <mat-select formControlName="ciudad">
+                <mat-option *ngFor="let ciudad of ciudades" [value]="ciudad">
+                    {{ciudad}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+        <div class="direccion-container">
+            <p class="title">Dirección de Retiro</p>
+            <mat-form-field style="width: 60%; margin-right: 5%;">
+                <mat-label>Calle</mat-label>
+                <input matInput type="text" formControlName="calleRetiro" placeholder="Avenida Siempre Viva" />
+            </mat-form-field>
+            <mat-form-field style="width: 30%">
+                <mat-label>Número</mat-label>
+                <input matInput type="text" formControlName="nroRetiro" placeholder="742"
+                    (keyup)="validarAlturaRetiro()" />
+            </mat-form-field>
+            <mat-form-field style="width: 100%">
+                <mat-label>Referencia</mat-label>
+                <input matInput type="text" formControlName="referenciaRetiro"
+                    placeholder="Rejas celestes y ladrillo visto" />
+            </mat-form-field>
+        </div>
+        <div class="direccion-container">
+            <p class="title">Dirección de Entrega</p>
+            <mat-form-field style="width: 60%;  margin-right: 5%;">
+                <mat-label>Calle</mat-label>
+                <input matInput type="text" formControlName="calleEntrega" placeholder="Avenida Siempre Viva" />
+            </mat-form-field>
+            <mat-form-field style="width: 30%">
+                <mat-label>Número</mat-label>
+                <input matInput type="text" formControlName="nroEntrega" placeholder="Avenida Siempre Viva"
+                    (keyup)="validarAlturaEntrega()" />
+            </mat-form-field>
+            <mat-form-field style="width: 100%">
+                <mat-label>Referencia</mat-label>
+                <input matInput type="text" formControlName="referenciaEntrega"
+                    placeholder="Rejas celestes y ladrillo visto" />
+            </mat-form-field>
+        </div>
+    </form>
+    <div class="actions-container">
+        <div class="previous-button" (click)="navigateTo(['tipo-de-pedido'])">
+            <mat-icon class="primary-text prev-icon">west</mat-icon>
+        </div>
+        <div class="continue-button" (click)="setPedidoDetails()">
+            <span class="continue-button_label">Continuar</span>
+            <button mat-mini-fab class="primary-button next-button" aria-label="Continuar">
+                <mat-icon>east</mat-icon>
+            </button>
+        </div>
+    </div>
+</div>
