@@ -7,6 +7,8 @@ Este repositorio tiene como objetivo principal facilitar el acceso y la gestión
 
 ## Estructura del repositorio:
 
+
+```bash
 IS_Grupo9_Repo_2023
 ├── Catedra
 │   ├── Templates
@@ -27,3 +29,4 @@ IS_Grupo9_Repo_2023
 └── Extras
     ├── NotasDeClases
     └── FotosDeClases
+```
