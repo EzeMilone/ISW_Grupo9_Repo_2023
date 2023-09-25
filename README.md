@@ -30,3 +30,18 @@ ISW_Grupo9_Repo_2023
     ├── NotasDeClases
     └── FotosDeClases
 ```
+
+## Reglas de Nombrado
+| Ítem de Configuración | Regla de Nombrado | Ubicación Física | Tipo de Ítem |
+|-----------------------|-------------------|------------------|--------------|
+| Bibliografía          | `ISW_Bibliografia_<NombreArchivo>.pdf` | `IS_Grupo9_Repo_2023\Teorico\Bibliografia` | Proyecto |
+| Consigna Evaluable | `Evaluable_<NumeroEvaluable>_Consigna.pdf` | `IS_Grupo9_Repo_2023\Practico\Evaluables\Evaluable_N\Consigna` | Evaluable |
+| PPT | `ISW_<NumeroPPT>_<NombreFilmina>.pdf` | `IS_Grupo9_Repo_2023\Teorico\PPTs_2023\<NumeroParcial>` | Proyecto |
+
+## Glosario
+| Sigla | Significado |
+|-|-|
+| `<NombreArchivo>` | Nombre que identifica a cada material bibliografico. |
+| `<NombreFilmina>` | Nombre que identifica a cada filmina. |
+| `<NumeroEvaluable>` | Nombre que identifica el evaluable. |
+| `<NumeroPPT>` | Nombre que identifica el orden dado para la filmina. |
