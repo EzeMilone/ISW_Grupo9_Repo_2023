@@ -43,5 +43,6 @@ ISW_Grupo9_Repo_2023
 |-|-|
 | `<NombreArchivo>` | Nombre que identifica a cada material bibliografico. |
 | `<NombreFilmina>` | Nombre que identifica a cada filmina. |
-| `<NumeroEvaluable>` | Nombre que identifica el evaluable. |
-| `<NumeroPPT>` | Nombre que identifica el orden dado para la filmina. |
+| `<NumeroEvaluable>` | Numero que identifica el evaluable. |
+| `<NumeroPPT>` | Numero que identifica el orden dado para la filmina. |
+| `<NumeroParcial>` | Numero que identifica el parcial donde se tomará el contenido. |
