@@ -44,9 +44,9 @@ ISW_Grupo9_Repo_2023
 ## Reglas de Nombrado
 | Ítem de Configuración | Regla de Nombrado | Ubicación Física | Tipo de Ítem |
 |-----------------------|-------------------|------------------|--------------|
-| Bibliografía          | `ISW_Bibliografia_<NombreArchivo>.pdf` | `IS_Grupo9_Repo_2023\Teorico\Bibliografia` | Proyecto |
-| Consigna Evaluable | `Evaluable_<NumeroEvaluable>_Consigna.pdf` | `IS_Grupo9_Repo_2023\Practico\Evaluables\Evaluable_N\Consigna` | Evaluable |
-| PPT | `ISW_<NumeroPPT>_<NombreFilmina>.pdf` | `IS_Grupo9_Repo_2023\Teorico\PPTs_2023\<NumeroParcial>` | Proyecto |
+| Bibliografía          | `ISW_Bibliografia_<NombreArchivo>.pdf` | `ISW_Grupo9_Repo_2023\Teorico\Bibliografia` | Proyecto |
+| Consigna Evaluable | `Evaluable_<NumeroEvaluable>_Consigna.pdf` | `ISW_Grupo9_Repo_2023\Practico\Evaluables\Evaluable_N\Consigna` | Evaluable |
+| PPT | `ISW_<NumeroPPT>_<NombreFilmina>.pdf` | `ISW_Grupo9_Repo_2023\Teorico\PPTs_2023\<NumeroParcial>` | Proyecto |
 
 ## Glosario
 | Sigla | Significado |
