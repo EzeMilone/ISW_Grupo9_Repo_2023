@@ -1,0 +1,84 @@
+<div class="pago-container">
+    <h1 class="subtitle primary-text">Datos de pago</h1>
+    <mat-card class="detalle-carta">
+        <mat-card-header>
+            <div style="display: flex; flex-direction: column; width: 100%;">
+                <div style="display: flex; align-items: center; justify-content: center; padding-right: 40px;">
+                    <img mat-card-avatar style="margin: 0 0.5rem;" src="../../../assets/icons/motito_icono.png">
+                    <mat-card-title class="title" style="text-align: center; font-size: 1.2rem;"> Delivery </mat-card-title>
+                </div>
+              <mat-divider style="margin: 0.5rem 0;"></mat-divider>
+          </div>
+        </mat-card-header>
+        <mat-card-content>
+            <div class="descripcion-container">
+                <div class="fecha_entrega-container">
+                    <p class="subtitle">Fecha de entrega</p>
+                    <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
+                        <span class="subtitle fecha_entrega">{{ getFecha() }} <br> {{ getHora() }} </span>
+                    </div>
+                </div>
+                <div class="costo-container">
+                    <p class="subtitle" style="margin: 0;">Distancia: <label class="subtitle" [textContent]="envio()"></label>mts.</p>
+                    <p class="subtitle" style="margin: 0;">Costo cada 100mts: $50 </p>
+                </div>
+            </div>
+            <div class="total-container">
+                <p class="title" style="margin-bottom: 0; margin-top: 0.75rem; text-align: center;">Total: $<label class="title" [textContent]="precio()"> </label></p>
+            </div>
+        </mat-card-content>
+    </mat-card>
+    <p class="primary-text subtitle">Elija su forma de pago: </p>
+    <div class="forma-de-pago-container">
+
+        <mat-tab-group [(selectedIndex)]="tabindex" style="overflow: auto;">
+            <mat-tab label="Efectivo">
+                <mat-form-field style="width: 100%; margin: 0.5rem 0;" value="EFECTIVO">
+                    <mat-label>Monto con el que abonará</mat-label>
+                    <input #int matInput type="number" [(ngModel)]="monto"/>
+                </mat-form-field>
+            </mat-tab>
+            <mat-tab label="Tarjeta">
+                <form [formGroup]="formaPagoForm">
+                    <mat-form-field style="width: 100%;" value="TARJETA">
+                        <mat-label>Nombre que figura en la tarjeta</mat-label>
+                        <input matInput type="text" formControlName="nombre" />
+                    </mat-form-field>
+                    <mat-form-field style="width: 100%;">
+                        <mat-label>Número de tarjeta</mat-label>
+                        <input matInput type="text" formControlName="numeroTarjeta" minlength="16" maxlength="16" (keyup)="validarNroTarjeta()">                        
+                        <mat-hint class="subtitle">Solo se aceptan tarjetas VISA</mat-hint>
+                    </mat-form-field>
+                    <mat-label class="subtitle"><p>Fecha de Vencimiento</p></mat-label>
+                    <div style="display: flex;flex-direction: row; align-items: center; justify-content: flex-start;">  
+                        <mat-form-field style="width: 30%;"> 
+                            <mat-label class="subtitle">Mes</mat-label>
+                            <input matInput type="text" maxlength="2" minlength="2" formControlName="mes_vencimiento" (keyup)="validarMes()">
+                        </mat-form-field>
+                        <span class="subtitle" style="font-size: 1.5rem; margin: 0 0.5rem;">/</span>
+                        <mat-form-field style="width: 30%; ">
+                            <mat-label class="subtitle">Año</mat-label>
+                            <input matInput type="text" maxlength="4" minlength="4" formControlName="año_vencimiento"  (keyup)="validarAnio()">  
+                        </mat-form-field>
+                    </div>
+                    
+                    <mat-form-field style="width: 100%;">
+                        <mat-label>CVC</mat-label>
+                        <input matInput type="text" maxlength="3" minlength="3" formControlName="cvc"  (keyup)="validarCvc()"/>
+                    </mat-form-field>
+                </form>
+            </mat-tab>
+        </mat-tab-group>
+    </div>
+    <div class="actions-container">
+        <div class="previous-button" (click)="navigateTo(['pedido-no-adherido'])">
+            <mat-icon class="primary-text prev-icon">west</mat-icon>
+        </div>
+        <div class="continue-button" (click)="setFormaPDetails()">
+            <span class="continue-button_label">Continuar</span>
+            <button mat-mini-fab class="primary-button next-button" aria-label="Continuar">
+                <mat-icon>east</mat-icon>
+            </button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,41 @@
+::ng-deep .title {
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+::ng-deep .subtitle {
+    color: rgb(152, 158, 177);
+    font-size: 0.9rem;
+}
+
+::ng-deep .primary-button {
+    width: 100%;
+    background: rgb(255, 168, 52) !important;
+    font-weight: 600;
+    color: #fff !important;
+    font-size: 1rem;
+    padding: 1.5rem !important;
+}
+
+::ng-deep .secondary-button {
+    width: 100%;
+    background: rgb(255, 255, 255) !important;
+    border: 1px solid #f85f6a !important;
+    font-weight: 600;
+    color: #f85f6a !important;
+    font-size: 1rem;
+    padding: 1.5rem !important;
+}
+
+::ng-deep .primary-text {
+    color: #ffa834;
+}
+
+::ng-deep .accent-text {
+    color: #f85f6a;
+}
+
+::ng-deep .error_message {
+    background-color: #d93025;
+}
