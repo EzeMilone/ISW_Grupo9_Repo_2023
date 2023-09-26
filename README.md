@@ -46,3 +46,4 @@ ISW_Grupo9_Repo_2023
 | `<NumeroEvaluable>` | Numero que identifica el evaluable. |
 | `<NumeroPPT>` | Numero que identifica el orden dado para la filmina. |
 | `<NumeroParcial>` | Numero que identifica el parcial donde se tomará el contenido. |
+| `_N` | Numero de secuencia comenzando de 0. |
