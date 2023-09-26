@@ -47,6 +47,8 @@ ISW_Grupo9_Repo_2023
 | Bibliografía          | `ISW_Bibliografia_<NombreArchivo>.pdf` | `ISW_Grupo9_Repo_2023\Teorico\Bibliografia` | Proyecto |
 | Consigna Evaluable | `Evaluable_<NumeroEvaluable>_Consigna.pdf` | `ISW_Grupo9_Repo_2023\Practico\Evaluables\Evaluable_N\Consigna` | Evaluable |
 | PPT | `ISW_<NumeroPPT>_<NombreFilmina>.pdf` | `ISW_Grupo9_Repo_2023\Teorico\PPTs_2023\<NumeroParcial>` | Proyecto |
+| Disposiciones de Cátedra | `ISW_<Tipo>_<Año>.pdf ` | `<ISW_Grupo9_Repo_2023\Cátedra\Modalidad` | Proyecto |
+
 
 ## Glosario
 | Sigla | Significado |
@@ -55,5 +57,7 @@ ISW_Grupo9_Repo_2023
 | `<NombreFilmina>` | Nombre que identifica a cada filmina. |
 | `<NumeroEvaluable>` | Numero que identifica el evaluable. |
 | `<NumeroPPT>` | Numero que identifica el orden dado para la filmina. |
-| `<NumeroParcial>` | Numero que identifica el parcial donde se tomará el contenido. |
+| `<NumeroParcial>` | `PrimerParcial` o `SegundoParcial` dependiendo del parcial donde sea tomado su contenido. |
 | `_N` | Numero de secuencia comenzando de 0. |
+| `<Tipo>` | `Modalidad` o `Planificación` |
+| `<Año>` | Año en formato YYYY. |
