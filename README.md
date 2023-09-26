@@ -43,15 +43,15 @@ ISW_Grupo9_Repo_2023
 ## Reglas de Nombrado
 | Ítem de Configuración | Regla de Nombrado | Ubicación Física | Tipo de Ítem |
 |-----------------------|-------------------|------------------|--------------|
-| Bibliografía          | `ISW_Bibliografia_<NombreArchivo>.pdf` | `ISW_Grupo9_Repo_2023\Teorico\Bibliografia` | Proyecto |
-| Consigna Evaluable | `ISW_Evaluable_<NumeroEvaluable>_Consigna.pdf` | `ISW_Grupo9_Repo_2023\Practico\Evaluables\Evaluable_<N>\Consigna` | Evaluable |
-| Desarrollo Evaluable | `ISW_Evaluable_<NumeroEvaluable>_Des.<extension>` | `ISW_Grupo9_Repo_2023\Practico\Evaluables\Evaluable_<N>\Desarrollo` | Evaluable |
-| PPT | `ISW_<NumeroPPT>_<NombreFilmina>.pdf` | `ISW_Grupo9_Repo_2023\Teorico\PPTs_2023\<NumeroParcial>` | Proyecto |
-| Guia | `ISW_Guia_<NombreGuia>.pdf` | `ISW_Grupo9_Repo_2023\Practico\Guias` | Proyecto |
-| Disposiciones de Cátedra | `ISW_<Tipo>_<Año>.pdf ` | `<ISW_Grupo9_Repo_2023\Cátedra\Modalidad` | Proyecto |
-| Template | `ISW_Template_<NombreTemplate>.<extension> ` | `ISW_Grupo9_Repo_2023\Cátedra\Templates` | Proyecto |
-| Foto de clase | `ISW_Foto_<TemaFoto>.jpg ` | `SW_Grupo9_Repo_2023\Extras\FotosDeClases` | Proyecto |
-| Nota de clase | `ISW_Foto_<TemaNota>.jpg ` | `SW_Grupo9_Repo_2023\Extras\NotasDeClases` | Proyecto |
+| Bibliografía          | `ISW_Bibliografia_<NombreArchivo>.pdf` | `https://github.com/EzeMilone/ISW_Grupo9_Repo_2023/Teorico/Bibliografia` | Proyecto |
+| Consigna Evaluable | `ISW_<EvX>_Consigna` | `https://github.com/EzeMilone/ISW_Grupo9_Repo_2023/Practico/Evaluables/Evaluable_<N>/Consigna/` | Evaluable |
+| Desarrollo Evaluable | `ISW_Evaluable_<NumeroEvaluable>_Des.<extension>` | `https://github.com/EzeMilone/ISW_Grupo9_Repo_2023/Practico/Evaluables/Evaluable_<N>/Desarrollo/` | Evaluable |
+| PPT | `ISW_<NumeroPPT>_<NombreFilmina>.pdf` | `https://github.com/EzeMilone/ISW_Grupo9_Repo_2023/PPTs_2023/<NumeroParcial>` | Proyecto |
+| Guia | `ISW_Guia_<NombreGuia>.pdf` | `https://github.com/EzeMilone/ISW_Grupo9_Repo_2023/Practico/Guías` | Proyecto |
+| Disposiciones de Cátedra | `ISW_<Tipo>_<Año>.pdf ` | `https://github.com/EzeMilone/ISW_Grupo9_Repo_2023/Cátedra/Modalidad` | Proyecto |
+| Template | `ISW_Template_<NombreTemplate>.<extension> ` | `https://github.com/EzeMilone/ISW_Grupo9_Repo_2023/Cátedra/Templates` | Proyecto |
+| Foto de clase | `ISW_Foto_<TemaFoto>.jpg ` | `https://github.com/EzeMilone/ISW_Grupo9_Repo_2023/Extras/FotosDeClases` | Proyecto |
+| Nota de clase | `ISW_Foto_<TemaNota>.jpg ` | `https://github.com/EzeMilone/ISW_Grupo9_Repo_2023/Extras/NotasDeClases` | Proyecto |
 
 
 ## Glosario
