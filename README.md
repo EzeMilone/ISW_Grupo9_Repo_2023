@@ -1,6 +1,16 @@
 # ISW_Grupo9_Repo_2023
 Este es el repositorio oficial del Grupo 9 de la materia de Ingeniería y Calidad de Software. Aquí encontrarás un espacio centralizado y organizado para acceder a todos los recursos, materiales y documentación esenciales que utilizaremos a lo largo de este curso.
 
+## Integrantes
+| Legajo | Nombres y Apellidos | E-mail |
+|-|-|-|
+| 76903 | Gabriel Andrés Flores Gastañaga | gabrielfga99@gmail.com|
+| 78731 | Juan Pablo Paraje | Juanpabloparaje720@gmail.com |
+| 79554 | Federico Soldera Theaux | fedesoldera@gmail.com |
+| 84217 | Nicola Rebola Perricone | nicorebo1999@gmail.com |
+| 82500 | Ezequiel Matias Milone | ezeemilone@gmail.com |
+| 86809 | Bianca Cano | biancacano2002@gmail.com |
+
 ## Objetivo del repositorio:
 
 Este repositorio tiene como objetivo principal facilitar el acceso y la gestión de los recursos necesarios para el aprendizaje y la colaboración en el Grupo 9.
