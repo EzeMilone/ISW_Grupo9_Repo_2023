@@ -35,6 +35,7 @@ ISW_Grupo9_Repo_2023
 │   │   │   └── Desarrollo
 │   │   └── Evaluable_N
 │   └── Guías
+│   └── EjerciciosResueltos
 └── Extras
     ├── NotasDeClases
     └── FotosDeClases
@@ -52,6 +53,7 @@ ISW_Grupo9_Repo_2023
 | Template | `ISW_Template_<NombreTemplate>.<extension> ` | `https://github.com/EzeMilone/ISW_Grupo9_Repo_2023/Cátedra/Templates` | Proyecto |
 | Foto de clase | `ISW_Foto_<TemaFoto>.jpg ` | `https://github.com/EzeMilone/ISW_Grupo9_Repo_2023/Extras/FotosDeClases` | Proyecto |
 | Nota de clase | `ISW_Foto_<TemaNota>.jpg ` | `https://github.com/EzeMilone/ISW_Grupo9_Repo_2023/Extras/NotasDeClases` | Proyecto |
+| Ejercicio resuelto | `ISW_<TemaEjercicio>_<Ejercicio>.pdf ` | `https://github.com/EzeMilone/ISW_Grupo9_Repo_2023/Practico/EjerciciosResueltos` | Proyecto |
 
 
 ## Glosario
@@ -65,6 +67,8 @@ ISW_Grupo9_Repo_2023
 | `<NumeroParcial>` | `PrimerParcial` o `SegundoParcial` dependiendo del parcial donde sea tomado su contenido. |
 | `<TemaNota>` | Tema tratado en la nota de clase. |
 | `<TemaFoto>` | Tema tratado en la foto de clase. |
+| `<TemaEjercicio>` | Tema tratado en el ejercicio. |
+| `<Ejercicio>` | Nombre del ejercicio resuelto. |
 | `<NombreTemplate>` | Nombre que identifica a la template. |
 | `<N>` | Numero de secuencia comenzando de 0. |
 | `<EvX>` | Número del Evaluable. Ej: Ev2 |
